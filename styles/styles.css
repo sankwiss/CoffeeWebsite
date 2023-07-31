@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    background-color: rgb(26, 163, 209);
+    width: 100%;
+    height: 80px;
+}
+
+.guide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.brand {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0;
+    font-size: 26px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 30%;
+    padding: 0;
+}
+
+li {
+    margin-left: 10px;
+    padding: 20px;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.coffee {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    background-image: url("https://cdn.wearemanner.com/themes/sh.manner/public/assets/images/slider/mannersix.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    visibility: visible;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dec {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 25%;
+}
+
+p {
+    margin-top: 30px;
+    line-height: 30px;
+    color: grey;
+    font-size: 15px;
+}
+
+.smalltitile {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.para {
+    text-indent: 2em;
+    font-size: 13px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
